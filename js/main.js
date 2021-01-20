@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
       }
     });
-
+debugger;
   $(".js--mob-nav-icon").click(function () {
     var nav = $(".js--main-nav");
     var icon = $(".mob-menu-icon");
@@ -69,7 +69,7 @@ $(document).ready(function () {
     } else {
       icon.attr("name", "menu-outline");
     }
-
+debugger;
     nav.slideToggle(200);
   });
 })
